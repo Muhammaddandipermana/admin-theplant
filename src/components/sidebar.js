@@ -31,7 +31,7 @@ const Sidebar = () => {
                 exact={true}
               >
                 <i className="icon fas fa-home"></i>
-                <span className="text">Dashboard</span>
+                <span className="text">Beranda</span>
               </NavLink>
             </li>
             <li className="menu-item">
@@ -41,7 +41,7 @@ const Sidebar = () => {
                 to="/products"
               >
                 <i className="icon fas fa-shopping-bag"></i>
-                <span className="text">Products</span>
+                <span className="text">Produk</span>
               </NavLink>
             </li>
             <li className="menu-item">
@@ -94,7 +94,7 @@ const Sidebar = () => {
                 <span className="text">Users</span>
               </NavLink>
             </li>
-            <li className="menu-item">
+            {/* <li className="menu-item">
               <NavLink
                 activeClassName="active"
                 className="menu-link disabled"
@@ -114,7 +114,7 @@ const Sidebar = () => {
                 <i className="icon fas fa-usd-circle"></i>
                 <span className="text">Transactions</span>
               </NavLink>
-            </li>
+            </li> */}
           </ul>
           <br />
           <br />

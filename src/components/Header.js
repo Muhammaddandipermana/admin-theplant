@@ -38,7 +38,7 @@ const Header = () => {
               list="search_terms"
               type="text"
               className="form-control"
-              placeholder="Search term"
+              placeholder="Search"
             />
             <button className="btn btn-light bg" type="button">
               <i className="far fa-search"></i>
@@ -47,8 +47,6 @@ const Header = () => {
           <datalist id="search_terms">
             <option value="Products" />
             <option value="New orders" />
-            <option value="Apple iphone" />
-            <option value="Ahmed Hassan" />
           </datalist>
         </form>
       </div>
@@ -72,7 +70,7 @@ const Header = () => {
           </li>
           <li className="nav-item">
             <Link className="nav-link" to="#">
-              English
+              Indonesia
             </Link>
           </li>
           <li className="dropdown nav-item">

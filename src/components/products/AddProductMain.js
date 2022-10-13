@@ -68,11 +68,11 @@ const AddProductMain = () => {
                   {loading && <Loading />}
                   <div className="mb-4">
                     <label htmlFor="product_title" className="form-label">
-                      Product title
+                      Nama Produk
                     </label>
                     <input
                       type="text"
-                      placeholder="Type here"
+                      placeholder="Tulis Disini"
                       className="form-control"
                       id="product_title"
                       required
@@ -80,38 +80,38 @@ const AddProductMain = () => {
                       onChange={(e) => setName(e.target.value)}
                     />
                   </div>
-                  {/* <div className="mb-4">
+                  <div className="mb-4">
                     <label htmlFor="product_price" className="form-label">
-                      Price
+                      Harga
                     </label>
                     <input
                       type="number"
-                      placeholder="Type here"
+                      placeholder="Tulis Disini"
                       className="form-control"
                       id="product_price"
                       required
                       value={price}
                       onChange={(e) => setPrice(e.target.value)}
                     />
-                  </div> */}
-                  {/* <div className="mb-4">
+                  </div>
+                  <div className="mb-4">
                     <label htmlFor="product_price" className="form-label">
-                      Count In Stock
+                      Stock Tersisa
                     </label>
                     <input
                       type="number"
-                      placeholder="Type here"
+                      placeholder="Tulis Disini"
                       className="form-control"
                       id="product_price"
                       required
                       value={countInStock}
                       onChange={(e) => setCountInStock(e.target.value)}
                     />
-                  </div> */}
+                  </div>
                   <div className="mb-4">
-                    <label className="form-label">Description</label>
+                    <label className="form-label">Deskripsi Produk</label>
                     <textarea
-                      placeholder="Type here"
+                      placeholder="Tulis Disini"
                       className="form-control"
                       rows="7"
                       required
@@ -120,11 +120,11 @@ const AddProductMain = () => {
                     ></textarea>
                   </div>
                   <div className="mb-4">
-                    <label className="form-label">Images</label>
+                    <label className="form-label">Gambar</label>
                     <input
                       className="form-control"
                       type="text"
-                      placeholder="Enter Image URL"
+                      placeholder="Masukan Link Gambar"
                       value={image}
                       required
                       onChange={(e) => setImage(e.target.value)}
