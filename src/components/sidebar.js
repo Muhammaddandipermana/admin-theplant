@@ -54,7 +54,7 @@ const Sidebar = () => {
                 <span className="text">Tambahkan Tanaman</span>
               </NavLink>
             </li>
-            <li className="menu-item">
+            {/* <li className="menu-item">
               <NavLink
                 activeClassName="active"
                 className="menu-link"
@@ -63,7 +63,7 @@ const Sidebar = () => {
                 <i className="icon fas fa-cart-plus"></i>
                 <span className="text">Tanaman Langka</span>
               </NavLink>
-            </li>
+            </li> */}
             {/* <li className="menu-item">
               <NavLink
                 activeClassName="active"
